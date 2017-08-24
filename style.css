@@ -101,7 +101,7 @@ a:hover {
 
 /* div for portfolio section */
 .portfolio {
-    
+    background-color: white;
     background-position: center;
     background-repeat: repeat;
     position: relative;
