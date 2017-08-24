@@ -1,0 +1,394 @@
+/* Adds border to summary when screen width is over 992px */
+@media screen and (min-width:992px) {
+    .col-bordered {
+        border-right: 1px solid #cecece;
+    }
+
+    .col-bordered:last-child {
+        border-right: none;
+    } 
+    .col-bordered-145 {
+        height: 145px;
+        border-right: 1px solid #cecece;
+    }
+
+    .col-bordered-145:last-child {
+        border-right: none;
+    }
+}
+
+body, html {
+    height: 100%;
+    margin: 0px;
+}
+
+/* background image for case study pages */
+#casestudy {
+    background-image: url("crossword.png");
+}
+
+/* nav bar for menu */
+.header {
+    height: 10%;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    padding: 0;
+}
+
+.menu_links li {
+    display: inline;
+    padding: 20px;
+}
+
+/* menu links */
+li a {
+    text-decoration: none;
+    font-family: "montserrat";
+    color: #000000;
+    text-transform: uppercase;
+}
+
+/* hover for menu links */
+a:hover {
+    text-decoration: underline;
+}
+
+.menu {
+    width: 960px;
+    text-align: center;       
+}
+
+.menu_links {
+    margin-bottom: 0;
+}
+
+
+.hero-image {
+    background-image: url("wet_snow.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: repeat;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-text h1 {
+    font-family: "montserrat";
+    font-size: 4em;
+}
+
+.hero-text p {
+    font-family: "lora";
+    font-size: 1.2em;
+}
+
+/* div for portfolio section */
+.portfolio {
+    
+    background-image: url("crossword.png");
+    background-position: center;
+    background-repeat: repeat;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+figcaption {
+    padding-top: 10px;
+    text-align: center;
+    font-family: "Lora";
+    font-size: 1em;
+}
+
+/* container for portfolio images */
+.mywork {
+    text-align: center;
+}
+
+.about {
+    background-image: url("background1.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: repeat;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+footer {
+    height: 200px;
+    position: relative;
+}
+
+.footer-text {
+    text-align: center;
+    font-family: "lora";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+
+.footer-text p {
+    text-align: center;
+    font-family: "Lora";
+}
+
+/* main div that contains all contents for case study pages */
+.case-content {
+    width: 80%;
+    margin: auto;
+}
+
+/* Main title */
+.content-heading h1 {
+    text-align: center;
+    padding-top: 110px;
+    margin-top: 0;
+    font-family: "montserrat";
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+/* Sub-title */
+.content-heading h4 {
+    font-family: "lora";
+    font-size: 1em;
+    text-align: center;
+}
+
+/* Main hero image for case study page */
+.main_img img {
+    margin-top: 25px;
+    max-width: 100%;
+}
+
+.overview h3 {
+    font-family: "montserrat";
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+}
+
+.overview p {
+    font-family: "lora";
+    font-size: 1.3em;
+    line-height: 30px;
+    width: 75%;
+    margin: auto;
+}
+
+.content-process img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Main Text for content */
+.content-process h3 {
+    font-family: "montserrat";
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+}
+
+/* Text container for empathize portion */
+.content-empathize {
+    width: 75%;
+    margin: auto;
+}
+
+.content-empathize h4 {
+    font-family: "montserrat";
+    font-size: 1.5em;
+}
+
+.content-empathize p {
+    font-family: "lora";
+    font-size: 1.3em;
+    line-height: 30px;
+}
+
+.content-quote {
+    text-align: center;
+    width: 80%;
+    font-family: "lora";
+    font-size: 2.7em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.content-quote p {
+    margin: auto;
+}
+
+.quote-div {
+    width: 15%;
+    border-top: 1px solid #cecece;
+}
+
+.content-define h4 {
+    font-family: "montserrat";
+    font-size: 1.5em;
+    margin: 10px auto;
+    
+}
+
+.content-define {
+    width: 75%;
+    margin: auto;
+}
+.content-define p {
+    font-family: "lora";
+    font-size: 1.3em;
+    line-height: 30px;
+}
+
+/*.content-define img {
+    float: right;
+    width: 60%;
+}*/
+
+.scenario {
+    padding: 10px;
+}
+
+.content-ideate h4 {
+    font-family: "montserrat";
+    font-size: 1.5em;
+    width: 75%;
+    margin: auto;
+}
+
+.content-ideate p {
+    font-family: "lora";
+    font-size: 1.3em;
+    line-height: 30px;
+    width: 75%;
+    margin: auto;
+}
+
+.content-test {
+    width: 75%;
+    margin: auto;
+}
+
+.content-test h4 {
+    font-family: "montserrat";
+    font-size: 1.5em;
+}
+
+.content-test p {
+    font-family: "lora";
+    font-size: 1.3em;
+    line-height: 30px;
+
+}
+
+.footer-text a {
+    margin: auto;
+}
+
+.linkedin {
+    width: 30px;
+}
+
+.rsrow {
+    width: 970px;
+    margin: auto;
+}
+
+.row p {
+    font-family: "lora";
+}
+
+.row li {
+    font-family: "lora";
+}
+
+/*top row of portfolio work imgs on main page*/
+.portfolio-boxes {
+    margin: 9% 0 4% 0;
+}
+
+.container-max-width {
+    max-width: 970px;
+}
+
+.title p {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.content-process .rs-img {
+    width: 150px;
+}
+
+/* WeTravel list formatting */
+.wetravel-empathize ul {
+    margin: auto;
+    width: 75%;
+    font-family: "Lora";
+    font-size: 1.5em;
+}
+
+.content-define .scenario {
+    width: 100%;
+}
+
+/* iframe responsive */
+.marvel-container iframe {
+  width: 100%;
+  height: 100vh;
+}
+
+/*my other work */
+.col-md-6 .icons {
+    width: 360px;
+}
+/*.img-overlay img {
+   z-index: -1;
+}
+.readysurgery-overlay {
+    width: 100%;
+    height: 220px;
+    bottom: .3rem;
+    background-color: black;
+    z-index: 1;
+    opacity: 0.5;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display:none;
+}*/
+
+.portfolio-caption {
+    margin: 3% 0 5% 0;
+}
+
+.drawings {
+    margin-top: 10%;
+}
