@@ -24,7 +24,7 @@ body, html {
 
 /* background image for case study pages */
 #casestudy {
-    background-image: url("crossword.png");
+    background-color: white;
 }
 
 /* nav bar for menu */
@@ -91,12 +91,12 @@ a:hover {
 
 .hero-text h1 {
     font-family: "montserrat";
-    font-size: 4em;
+    font-size: 48px;
 }
 
 .hero-text p {
-    font-family: "lora";
-    font-size: 1.2em;
+    font-family: "Lora";
+    font-size: 18px;
 }
 
 /* div for portfolio section */
@@ -113,7 +113,7 @@ figcaption {
     padding-top: 10px;
     text-align: center;
     font-family: "Lora";
-    font-size: 1em;
+    font-size: 18px;
 }
 
 /* container for portfolio images */
@@ -148,11 +148,13 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 50%;
+    font-size: 18px;
 }
 
 .footer-text p {
     text-align: center;
     font-family: "Lora";
+    font-size: 18px;
 }
 
 /* main div that contains all contents for case study pages */
@@ -167,14 +169,14 @@ footer {
     padding-top: 110px;
     margin-top: 0;
     font-family: "montserrat";
-    font-size: 3em;
+    font-size: 44px ;
     text-transform: uppercase;
 }
 
 /* Sub-title */
 .content-heading h4 {
-    font-family: "lora";
-    font-size: 1em;
+    font-family: "Lora";
+    font-size: 18px;
     text-align: center;
 }
 
@@ -187,13 +189,13 @@ footer {
 .overview h3 {
     font-family: "montserrat";
     text-transform: uppercase;
-    font-size: 2em;
+    font-size: 36px;
     text-align: center;
 }
 
 .overview p {
     font-family: "lora";
-    font-size: 1.3em;
+    font-size: 18px;
     line-height: 30px;
     width: 75%;
     margin: auto;
@@ -210,7 +212,7 @@ footer {
 .content-process h3 {
     font-family: "montserrat";
     text-transform: uppercase;
-    font-size: 2em;
+    font-size: 36px;
     text-align: center;
 }
 
@@ -220,14 +222,17 @@ footer {
     margin: auto;
 }
 
+.content-empathize h3 {
+    font-size: 24px;
+}
 .content-empathize h4 {
     font-family: "montserrat";
-    font-size: 1.5em;
+    font-size: 18px;
 }
 
 .content-empathize p {
     font-family: "lora";
-    font-size: 1.3em;
+    font-size: 18px;
     line-height: 30px;
 }
 
@@ -251,7 +256,7 @@ footer {
 
 .content-define h4 {
     font-family: "montserrat";
-    font-size: 1.5em;
+    font-size: 18px;
     margin: 10px auto;
     
 }
@@ -262,7 +267,7 @@ footer {
 }
 .content-define p {
     font-family: "lora";
-    font-size: 1.3em;
+    font-size: 18px;
     line-height: 30px;
 }
 
@@ -275,16 +280,19 @@ footer {
     padding: 10px;
 }
 
+.scenario-div {
+    margin: -2%;
+}
 .content-ideate h4 {
     font-family: "montserrat";
-    font-size: 1.5em;
+    font-size: 18px;
     width: 75%;
     margin: auto;
 }
 
 .content-ideate p {
     font-family: "lora";
-    font-size: 1.3em;
+    font-size: 18px;
     line-height: 30px;
     width: 75%;
     margin: auto;
@@ -295,14 +303,14 @@ footer {
     margin: auto;
 }
 
-.content-test h4 {
+.content-test h3 {
     font-family: "montserrat";
-    font-size: 1.5em;
+    font-size: 36px;
 }
 
 .content-test p {
     font-family: "lora";
-    font-size: 1.3em;
+    font-size: 18px;
     line-height: 30px;
 
 }
