@@ -186,7 +186,7 @@ footer {
     max-width: 100%;
 }
 
-.overview h3 {
+.overview h2 {
     font-family: "montserrat";
     text-transform: uppercase;
     font-size: 36px;
@@ -209,31 +209,41 @@ footer {
 }
 
 /* Main Text for content */
-.content-process h3 {
+.content-process .main {
     font-family: "montserrat";
     text-transform: uppercase;
     font-size: 36px;
     text-align: center;
 }
 
-/* Text container for empathize portion */
-.content-empathize {
+/* Text container for all sections */
+.section {
     width: 75%;
     margin: auto;
 }
 
-.content-empathize h3 {
+.section h2 {
+    font-family: "montserrat";
+    font-size: 36px;
+}
+
+.section h3 {
     font-size: 24px;
 }
-.content-empathize h4 {
+.section h4 {
     font-family: "montserrat";
     font-size: 18px;
 }
 
-.content-empathize p {
+
+.section p {
     font-family: "lora";
     font-size: 18px;
     line-height: 30px;
+}
+
+.section .wt_process {
+    width: 80%;
 }
 
 .content-quote {
@@ -254,65 +264,12 @@ footer {
     border-top: 1px solid #cecece;
 }
 
-.content-define h4 {
-    font-family: "montserrat";
-    font-size: 18px;
-    margin: 10px auto;
-    
-}
-
-.content-define {
-    width: 75%;
-    margin: auto;
-}
-.content-define p {
-    font-family: "lora";
-    font-size: 18px;
-    line-height: 30px;
-}
-
-/*.content-define img {
-    float: right;
-    width: 60%;
-}*/
-
-.scenario {
+.image {
     padding: 10px;
 }
 
-.scenario-div {
+.artifacts {
     margin: -2%;
-}
-.content-ideate h4 {
-    font-family: "montserrat";
-    font-size: 18px;
-    width: 75%;
-    margin: auto;
-}
-
-.content-ideate p {
-    font-family: "lora";
-    font-size: 18px;
-    line-height: 30px;
-    width: 75%;
-    margin: auto;
-}
-
-.content-test {
-    width: 75%;
-    margin: auto;
-}
-
-.content-test h3 {
-    font-family: "montserrat";
-    font-size: 36px;
-}
-
-.content-test p {
-    font-family: "lora";
-    font-size: 18px;
-    line-height: 30px;
-
 }
 
 .footer-text a {
@@ -354,18 +311,6 @@ footer {
     width: 150px;
 }
 
-/* WeTravel list formatting */
-.wetravel-empathize ul {
-    margin: auto;
-    width: 75%;
-    font-family: "Lora";
-    font-size: 1.5em;
-}
-
-.content-define .scenario {
-    width: 100%;
-}
-
 /* iframe responsive */
 .marvel-container iframe {
   width: 100%;
@@ -399,3 +344,21 @@ footer {
 .drawings {
     margin-top: 10%;
 }
+
+/*WeTravel*/
+
+.lists ol {
+    margin: auto;
+    width: 75%;
+}
+
+.lists ul {
+    margin: auto;
+    width: 75%;
+}
+
+.lists li {
+    font-family: "Lora";
+    font-size: 18px;
+}
+
