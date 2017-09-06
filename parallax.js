@@ -1,11 +1,11 @@
-$(window).scroll(function(){
+/*$(window).scroll(function(){
     parallax();
 })
 
 function parallax() {
     var wScroll = $(window).scrollTop();
     $(".parallax-bg").css("background-position", (wScroll*0.25)+"px")
-}
+}*/
 
 
 $(document).on('click', 'a[href*="#"]', function(event){
