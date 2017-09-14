@@ -59,7 +59,7 @@ li a {
 }
 
 .header img {
-    width: 110px;
+    width: 10%;
 }
 
 /* hover for menu links */
@@ -78,7 +78,7 @@ a:hover {
 
 
 .hero-image {
-    background-image: url("wc-bg.jpg");
+    background-color: #F67280;
     height: 100%;
     background-size: cover;
     background-position: center;
@@ -89,8 +89,8 @@ a:hover {
 }
 
 .hero-text {
-    color: #363636;
-    text-align: center;
+    color: white;
+    text-align: left;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -107,6 +107,28 @@ a:hover {
     font-size: 18px;
 }
 
+.about-text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-text h1 {
+    font-family: "montserrat";
+    font-size: 48px;
+}
+
+.about-text p {
+    font-family: "Lora";
+    font-size: 18px;
+}
+
+.summary {
+    margin: 4% 0;
+}
+
 /* div for portfolio section */
 .portfolio {
     background-color: white;
@@ -121,7 +143,8 @@ figcaption {
     padding-top: 10px;
     text-align: center;
     font-family: "Lora";
-    font-size: 18px;
+    font-size: 14px;
+    margin-bottom: 4%;
 }
 
 /* container for portfolio images */
@@ -130,7 +153,7 @@ figcaption {
 }
 
 .about {
-    background-image: url("background1.png");
+    background-color: #6C5B7B;
     height: 100%;
     background-position: center;
     background-repeat: repeat;
@@ -148,7 +171,7 @@ h1 {
 }
 
 footer {
-    height: 200px;
+    height: 20%;
     position: relative;
 }
 
@@ -203,7 +226,6 @@ h2 {
     text-transform: uppercase;
     font-size: 36px;
     text-align: center;
-    margin: 3%;
 }
 
 .overview p {
@@ -211,9 +233,16 @@ h2 {
     font-size: 18px;
     line-height: 30px;
     width: 75%;
-    margin: 2% auto;
+    margin: 3% auto;
 }
 
+.overview h2 {
+    margin: 3%;
+}
+
+.content-process h2 {
+    margin: 3% 0 3% 0;
+}
 .content-process img {
     display: block;
     margin-left: auto;
@@ -247,15 +276,18 @@ h2 {
 .section h2 {
     font-family: "montserrat";
     font-size: 36px;
-    margin: 2%;
+    margin: 0 0 4% 0;
 }
 
 .section h3 {
     font-size: 24px;
+    margin: 0 0 4% 0;
 }
 .section h4 {
     font-family: "montserrat";
     font-size: 18px;
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
 
 
@@ -263,7 +295,7 @@ h2 {
     font-family: "lora";
     font-size: 18px;
     line-height: 30px;
-    margin: 2%;
+    margin-bottom: 3%;
 }
 
 .section .wt_process {
@@ -345,6 +377,10 @@ h2 {
   height: 100vh;
 }
 
+.prototype {
+    margin-bottom: 4%;
+}
+
 /*my other work */
 .col-md-6 .icons {
     width: 360px;
@@ -374,6 +410,10 @@ h2 {
 }
 
 /*WeTravel*/
+
+.lists {
+    margin-bottom: 4%;
+}
 
 .lists ol {
     margin: auto;
